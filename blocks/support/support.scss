@@ -38,6 +38,11 @@
     border-radius: 8px;
     background-color: $pageColor_3;
     color: $textColor_1;
+    transition: opacity 0.5s;
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
   }
 
   &__text {

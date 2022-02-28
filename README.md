@@ -5,5 +5,6 @@
 - Css
 - Html
 - SCSS
+- JS
 
 - Впервые используется SCSS

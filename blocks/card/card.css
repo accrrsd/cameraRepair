@@ -8,6 +8,10 @@
   padding: 40px;
   box-sizing: border-box;
 }
+.card:hover {
+  background-color: #232327;
+  cursor: pointer;
+}
 .card__tag {
   margin: 0;
   padding: 0;

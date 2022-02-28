@@ -29,6 +29,11 @@
   border-radius: 8px;
   background-color: #47474c;
   color: white;
+  transition: opacity 0.5s;
+}
+.support__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 .support__text {
   margin: 0;
