@@ -1,0 +1,54 @@
+@import '../../../variables/index.scss';
+
+.card {
+  &_small {
+    margin: 0;
+    max-width: 265px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  &__tag {
+    &_small {
+      margin-bottom: 38px;
+      font-size: 18px;
+      line-height: 18px;
+      color: $textColor_1;
+    }
+  }
+
+  &__text {
+    &_small {
+      font-size: 15px;
+      line-height: 19px;
+      margin: 0;
+      /* or 127% */
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .card {
+    &_small {
+      max-width: 314px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .card {
+    &_small {
+      margin: 0;
+      max-width: 280px;
+      min-height: 148px;
+    }
+    &__tag {
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &__text {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

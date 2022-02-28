@@ -1,0 +1,38 @@
+.warranty {
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+.warranty__title {
+  margin-bottom: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .warranty {
+    max-width: 648px;
+    padding-top: 70px;
+  }
+  .warranty__title {
+    margin-bottom: 62px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .warranty {
+    max-width: 280px;
+    padding-top: 0px;
+    margin-top: 70px;
+    padding-bottom: 10px;
+  }
+  .warranty__title {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 39px;
+  }
+}/*# sourceMappingURL=warranty.css.map */
