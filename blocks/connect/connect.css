@@ -28,14 +28,21 @@
 }
 .connect__form:hover {
   cursor: pointer;
-}
-.connect__form:hover__form {
   background: rgba(142, 142, 152, 0.3);
 }
 .connect__form:focus {
   background: rgba(142, 142, 152, 0.3);
   outline: none;
   cursor: text;
+}
+.connect__form:not(:-moz-placeholder-shown) {
+  background: rgba(142, 142, 152, 0.3);
+}
+.connect__form:not(:-ms-input-placeholder) {
+  background: rgba(142, 142, 152, 0.3);
+}
+.connect__form:not(:placeholder-shown) {
+  background: rgba(142, 142, 152, 0.3);
 }
 .connect__submit {
   margin: 0;

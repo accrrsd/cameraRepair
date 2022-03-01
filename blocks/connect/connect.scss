@@ -29,14 +29,15 @@
     border: none;
     &:hover {
       cursor: pointer;
-      &__form {
-        background: rgba(142, 142, 152, 0.3);
-      }
+      background: rgba(142, 142, 152, 0.3);
     }
     &:focus {
       background: rgba(142, 142, 152, 0.3);
       outline: none;
       cursor: text;
+    }
+    &:not(:placeholder-shown) {
+      background: rgba(142, 142, 152, 0.3);
     }
   }
 
