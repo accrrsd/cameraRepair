@@ -1,0 +1,19 @@
+@import '../../variables/index.scss';
+.page {
+  background-color: $pageColor_1;
+
+  &__content {
+    max-width: $desktop;
+    min-width: $phone;
+    margin: 0 auto;
+    color: $textColor_1;
+  }
+}
+
+// @media screen and (max-width: $tablet) {
+//   .page {
+//     &__content {
+//       max-width: 708px;
+//     }
+//   }
+// }

@@ -1,0 +1,64 @@
+@import '../../variables/index.scss';
+.header {
+  margin: 0 auto;
+  padding: 60px;
+  max-width: $desktop-content;
+  // box-sizing: border-box;
+
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: $textColor_1;
+
+  &__title {
+    font-size: 112px;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+
+  &__subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    line-height: 87%;
+    margin-bottom: 230px;
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .header {
+    padding: 50px;
+    max-width: $tablet-content;
+    &__title {
+      font-size: 70px;
+      line-height: 90px;
+      margin-bottom: 0px;
+    }
+    &__subtitle {
+      font-size: 50px;
+      line-height: 60px;
+      margin-bottom: 470px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .header {
+    max-width: $phone-content;
+    padding-bottom: 19px;
+    &__title {
+      font-size: 50px;
+      line-height: 60px;
+      margin-bottom: 10px;
+    }
+    &__subtitle {
+      font-size: 30px;
+      line-height: 38px;
+      margin-bottom: 260px;
+    }
+  }
+}
