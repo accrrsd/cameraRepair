@@ -1,3 +1,8 @@
 .price-list {
   margin-bottom: 28px;
 }
+@media screen and (max-width: 760px) {
+  .price-list {
+    padding: 0 60px;
+  }
+}

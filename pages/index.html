@@ -1,114 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ремонт плёночных фотоаппаратов</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body class="page">
-<div class="page__content">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ремонт плёночных фотоаппаратов</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="page">
+    <div class="page__content">
+      <header class="header">
+        <div class="company company_header">
+          <p class="company__name">C-Works</p>
+          <div class="company__status">мы открылись</div>
+        </div>
+        <h1 class="header__title">Ремонт</h1>
+        <h2 class="header__subtitle">Плёночных фотоаппаратов</h2>
+        <article class="connect">
+          <form class="connect__field">
+            <input type="email" required class="connect__form" placeholder=" " />
+            <button type="submit" class="connect__submit"><span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span></button>
+          </form>
+          <p class="connect__text connect__subtext">Напишите нам и мы свяжемся с вами.</p>
+        </article>
+      </header>
+      <main>
+        <section class="gallery">
+          <div class="gallery__group">
+            <img src="../src/images/camera-1.jpg" alt="модель камеры" class="gallery__item" />
+            <div class="gallery__item gallery__item_type_solid"></div>
+          </div>
+          <div class="gallery__group">
+            <div class="gallery__item gallery__item_type_solid"></div>
+            <img src="../src/images/camera-2.jpg" alt="Камера спереди" class="gallery__item" />
+          </div>
+        </section>
 
-  <header class="header">
-    <div class="company company_header">
-      <p class="company__name">C-Works</p>
-      <div class="company__status">мы открылись</div>
+        <section class="info">
+          <p class="info__text">Мы ремонтируем плёночные фотоаппараты. Полностью механические камеры, относительно современные камеры на электронике, проводим CLA камер, принимаем в зачёт оплаты сломанные тушки и объективы.</p>
+          <p class="info__slogan">Для энтузиастов, от энтузиастов 👈</p>
+        </section>
+
+        <section class="price-list">
+          <div class="cards">
+            <article class="card">
+              <p class="card__tag">CLA</p>
+              <h4 class="card__title">Чистка камер.</h4>
+              <p class="card__text">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
+              <p class="card__price">от 2000₽</p>
+            </article>
+            <article class="card">
+              <p class="card__tag">Ремонт</p>
+              <h4 class="card__title">Ремонт камер.</h4>
+              <p class="card__text">Ремонт механизмов, замена деталей, пайка электроники, адаптация питания.</p>
+              <p class="card__price">от 2500₽</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="warranty">
+          <p class="warranty__title">Полная гарантия ⚡️</p>
+
+          <div class="cards">
+            <article class="card card_small">
+              <h4 class="card__tag card__tag_small">CLA</h4>
+              <p class="card__text card__text_small">После CLA мы даем гарантию на 1 год, в случае беды мы заново обслужим вашу камеру.</p>
+            </article>
+
+            <article class="card card_small">
+              <h4 class="card__tag card__tag_small">Ремонт</h4>
+              <p class="card__text card__text_small">После ремонта мы даем гарантию на 3 месяца или 6 месяцев.</p>
+            </article>
+
+            <article class="card card_small">
+              <h4 class="card__tag card__tag_small">Пайка и адаптация</h4>
+              <p class="card__text card__text_small">После пайки и адаптации питания мы даем гарантию на 1 год.</p>
+            </article>
+
+            <article class="card card_small">
+              <h4 class="card__tag card__tag_small">Осмотр</h4>
+              <p class="card__text card__text_small">Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь сами.</p>
+            </article>
+          </div>
+        </section>
+        <section class="support">
+          <p class="support__title">Поддержите нас 🤝</p>
+          <button class="support__button">Напишите нам если хотите помочь!</button>
+          <p class="support__text">Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали аккаунт, но как только это сделаем, сообщим вам.</p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="company">
+          <p class="company__name">C-Works</p>
+          <div class="company__status">мы открылись</div>
+        </div>
+
+        <article class="connect connect_place_footer">
+          <form class="connect__field">
+            <input type="email" required class="connect__form connect__form_place_footer" placeholder=" " />
+            <button type="submit" class="connect__submit"><span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span></button>
+          </form>
+        </article>
+        <div class="footer__copyright-container">
+          <p class="connect__text connect__text_place_footer connect__subtext connect__subtext_place_footer">Напишите нам и мы свяжемся с вами.</p>
+          <span class="footer__copyright">© C-Works, 2021.</span>
+        </div>
+      </footer>
     </div>
-    <h1 class="header__title">Ремонт</h1>
-    <h2 class="header__subtitle">Плёночных фотоаппаратов</h2>
-    <article class="connect">
-      <form class="connect__field">
-        <input type="email" required class="connect__form" placeholder=" ">
-        <button type="submit" class="connect__submit"><span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span></button>
-      </form>
-      <p class="connect__text">Напишите нам и мы свяжемся с вами.</p>
-    </article>
-  </header>
-  <main>
-    <section class="gallery">
-      <div class="gallery__group">
-        <img src="../src/images/camera-1.jpg" alt="модель камеры" class="gallery__item">
-        <div class="gallery__item gallery__item_solid"></div>
-      </div>
-      <div class="gallery__group">
-        <div class="gallery__item gallery__item_solid"></div>
-        <img src="../src/images/camera-2.jpg" alt="Камера спереди" class="gallery__item">
-      </div>
-    </section>
-
-    <section class="info">
-      <p class="info__text">Мы ремонтируем плёночные фотоаппараты. Полностью механические камеры, относительно современные камеры на электронике, проводим CLA камер, принимаем в зачёт оплаты сломанные тушки и объективы.</p>
-      <p class="info__slogan">Для энтузиастов, от энтузиастов 👈</p>
-    </section>
-    
-    <section class="price-list">
-      <div class="cards">
-        <article class="card">
-          <p class="card__tag">CLA</p>
-          <p class="card__title">Чистка камер.</p>
-          <p class="card__text">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
-          <p class="card__price">от 2000₽</p>
-        </article>
-        <article class="card">
-          <p class="card__tag">Ремонт</p>
-          <p class="card__title">Ремонт камер.</p>
-          <p class="card__text">Ремонт механизмов, замена деталей, пайка электроники, адаптация питания.</p>
-          <p class="card__price">от 2500₽</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="warranty">
-      <p class="warranty__title">Полная гарантия ⚡️</p>
-
-      <div class="cards">
-        <article class="card card_small">
-          <p class="card__tag card__tag_small">CLA</p>
-          <p class="card__text card__text_small">После CLA мы даем гарантию на 1 год, в случае беды мы заново обслужим вашу камеру.</p>
-        </article>
-
-        <article class="card card_small">
-          <p class="card__tag card__tag_small">Ремонт</p>
-          <p class="card__text card__text_small">После ремонта мы даем гарантию на 3 месяца или 6 месяцев.</p>
-        </article>
-
-        <article class="card card_small">
-          <p class="card__tag card__tag_small">Пайка и адаптация</p>
-          <p class="card__text card__text_small">После пайки и адаптации питания мы даем гарантию 
-            на 1 год.</p>
-        </article>
-
-        <article class="card card_small">
-          <p class="card__tag card__tag_small">Осмотр</p>
-          <p class="card__text card__text_small">Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь сами.</p>
-        </article>
-      </div>
-    </section>
-    <section class="support">
-      <p class="support__title">Поддержите нас 🤝</p>
-      <button class="support__button">Напишите нам если хотите помочь!</button>
-      <p class="support__text">Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали аккаунт, но как только это сделаем, сообщим вам.</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="company">
-      <p class="company__name">C-Works</p>
-      <div class="company__status">мы открылись</div>
-    </div>
-
-    <article class="connect connect_footer">
-      <form class="connect__field">
-        <input type="email" required class="connect__form connect__form_footer" placeholder=" ">
-        <button type="submit" class="connect__submit"><span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span></button>
-      </form>
-      <p class="connect__text connect__text_footer">Напишите нам и мы свяжемся с вами.</p>
-    </article>
-
-    <span class="footer__copyright">© C-Works, 2021.</span>
-  </footer>
-  
-</div>
-<script src='../scripts/connect.js'></script>
-</body>
+    <script src="../scripts/connect.js"></script>
+  </body>
 </html>

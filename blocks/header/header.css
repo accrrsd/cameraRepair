@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 60px;
   max-width: 1120px;
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: white;
@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 .header__subtitle {
   margin: 0;
@@ -20,6 +21,7 @@
   font-size: 80px;
   line-height: 87%;
   margin-bottom: 230px;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 768px) {

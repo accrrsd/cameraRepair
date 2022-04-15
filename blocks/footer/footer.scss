@@ -6,9 +6,7 @@ $currentPadding: 60px;
   margin: 0 auto;
   padding: $currentPadding;
   max-width: $desktop-content;
-  position: relative;
-
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   border-top: 2px solid #151515;
@@ -17,22 +15,38 @@ $currentPadding: 60px;
     line-height: 18px;
     color: $textColor_2;
     display: inline;
-    position: absolute;
-    bottom: $currentPadding;
-    right: $currentPadding;
+  }
+  &__copyright-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 824px) {
+  .footer {
+    &__copyright-container {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+  }
+}
+
 @media screen and (max-width: $tablet) {
   .footer {
     box-sizing: border-box;
     padding-left: 0;
     padding-right: 0;
     max-width: $tablet-content;
-    &__copyright {
-      display: block;
-      position: static;
-      margin-top: 60px;
-    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    box-sizing: content-box;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 

@@ -5,7 +5,7 @@
   max-width: $desktop-content;
   // box-sizing: border-box;
 
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: $textColor_1;
@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+    font-weight: normal;
   }
 
   &__subtitle {
@@ -24,6 +25,7 @@
     font-size: 80px;
     line-height: 87%;
     margin-bottom: 230px;
+    font-weight: normal;
   }
 }
 
