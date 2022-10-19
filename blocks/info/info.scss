@@ -1,0 +1,52 @@
+@import '../../variables/index.scss';
+
+.info {
+  margin: 0 auto;
+  padding: 60px;
+  margin-bottom: 60px;
+
+  max-width: 1120px;
+
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* or 125% */
+
+  &__text {
+    color: $textColor_3;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+
+  &__slogan {
+    color: $textColor_1;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .info {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .info {
+    padding: 73px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 70px;
+    font-size: 12px;
+    line-height: 18px;
+    &__text {
+      color: $textColor_3;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 38px;
+    }
+  }
+}

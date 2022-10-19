@@ -1,0 +1,89 @@
+@import '../../variables/index.scss';
+
+.card {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+
+  background-color: $pageColor_2;
+  border-radius: 16px;
+
+  max-width: 550px;
+  padding: 40px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: #232327;
+    cursor: pointer;
+  }
+
+  &__tag {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    color: $textColor_2;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+    color: $textColor_1;
+    font-weight: normal;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+
+    font-size: 32px;
+    line-height: 40px;
+    color: $textColor_3;
+  }
+
+  &__price {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: $additionalPageColor;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .card {
+    max-width: $tablet-content;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .card {
+    max-width: $phone-content;
+    padding: 20px;
+    &__tag {
+      margin-bottom: 10px;
+    }
+    &__title {
+      margin-bottom: 28px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &__price {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &__text {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 100px;
+    }
+  }
+}

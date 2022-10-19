@@ -1,0 +1,64 @@
+@import '../../variables/index.scss';
+
+$currentPadding: 60px;
+
+.footer {
+  margin: 0 auto;
+  padding: $currentPadding;
+  max-width: $desktop-content;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  border-top: 2px solid #151515;
+  &__copyright {
+    font-size: 12px;
+    line-height: 18px;
+    color: $textColor_2;
+    display: inline;
+  }
+  &__copyright-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .footer {
+    &__copyright-container {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .footer {
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: $tablet-content;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    box-sizing: content-box;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .footer {
+    max-width: $phone-content;
+    padding: 0;
+    padding-top: 29px;
+
+    &__copyright {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+}
