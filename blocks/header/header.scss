@@ -46,6 +46,14 @@
   }
 }
 
+@media screen and (max-width: 444px) {
+  .header {
+    &__subtitle {
+      font-size: 30px;
+    }
+  }
+}
+
 @media screen and (max-width: $phone) {
   .header {
     max-width: $phone-content;
@@ -56,7 +64,6 @@
       margin-bottom: 10px;
     }
     &__subtitle {
-      font-size: 30px;
       line-height: 38px;
       margin-bottom: 260px;
     }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ремонт плёночных фотоаппаратов</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="page">
     <div class="page__content">
@@ -18,7 +18,9 @@
         <article class="connect">
           <form class="connect__field">
             <input type="email" required class="connect__form" placeholder=" " />
-            <button type="submit" class="connect__submit"><span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span></button>
+            <button type="submit" class="connect__submit">
+              <span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span>
+            </button>
           </form>
           <p class="connect__text connect__subtext">Напишите нам и мы свяжемся с вами.</p>
         </article>
@@ -26,17 +28,20 @@
       <main>
         <section class="gallery">
           <div class="gallery__group">
-            <img src="../src/images/camera-1.jpg" alt="модель камеры" class="gallery__item" />
+            <img src="./src/images/camera-1.jpg" alt="модель камеры" class="gallery__item" />
             <div class="gallery__item gallery__item_type_solid"></div>
           </div>
           <div class="gallery__group">
             <div class="gallery__item gallery__item_type_solid"></div>
-            <img src="../src/images/camera-2.jpg" alt="Камера спереди" class="gallery__item" />
+            <img src="./src/images/camera-2.jpg" alt="Камера спереди" class="gallery__item" />
           </div>
         </section>
 
         <section class="info">
-          <p class="info__text">Мы ремонтируем плёночные фотоаппараты. Полностью механические камеры, относительно современные камеры на электронике, проводим CLA камер, принимаем в зачёт оплаты сломанные тушки и объективы.</p>
+          <p class="info__text">
+            Мы ремонтируем плёночные фотоаппараты. Полностью механические камеры, относительно современные камеры на электронике, проводим CLA камер,
+            принимаем в зачёт оплаты сломанные тушки и объективы.
+          </p>
           <p class="info__slogan">Для энтузиастов, от энтузиастов 👈</p>
         </section>
 
@@ -85,7 +90,9 @@
         <section class="support">
           <p class="support__title">Поддержите нас 🤝</p>
           <button class="support__button">Напишите нам если хотите помочь!</button>
-          <p class="support__text">Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали аккаунт, но как только это сделаем, сообщим вам.</p>
+          <p class="support__text">
+            Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали аккаунт, но как только это сделаем, сообщим вам.
+          </p>
         </section>
       </main>
 
@@ -98,7 +105,9 @@
         <article class="connect connect_place_footer">
           <form class="connect__field">
             <input type="email" required class="connect__form connect__form_place_footer" placeholder=" " />
-            <button type="submit" class="connect__submit"><span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span></button>
+            <button type="submit" class="connect__submit">
+              <span class="connect__btnText">Отремонтируйте камеру</span> <span class="connect__emoji">✌️</span>
+            </button>
           </form>
         </article>
         <div class="footer__copyright-container">
@@ -107,6 +116,6 @@
         </div>
       </footer>
     </div>
-    <script src="../scripts/connect.js"></script>
+    <script src="./scripts/connect.js"></script>
   </body>
 </html>

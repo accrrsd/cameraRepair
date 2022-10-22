@@ -1,9 +1,1 @@
-.page {
-  background-color: black;
-}
-.page__content {
-  max-width: 1440px;
-  min-width: 425px;
-  margin: 0 auto;
-  color: white;
-}/*# sourceMappingURL=page.css.map */
+.page{background-color:#000}.page__content{max-width:1440px;min-width:425px;margin:0 auto;color:#fff}
